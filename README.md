@@ -1,0 +1,2 @@
+# jsGDP
+Assignment on JavaScript
