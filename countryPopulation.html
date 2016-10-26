@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>D3js Bar Graph</title>
+
+  <!-- D3.js CDN source -->
+  <script src="./nodejs/d3.js" charset="utf-8"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./css/stylingGraph.css">
+</head>
+<body>
+  <h1 align="center">Bar Chart of Population by Country for the Year 2013 </h1>
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <div class="btn-group" role="group">
+      <a href="./index.html"><button type="button" class="btn btn-default">G20 Countries</button></a>
+    </div>
+    <div class="btn-group" role="group">
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Bar Graphs for the year 2013
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu col-mg-4">
+          <li><a href="./countryPopulation.html">Country v/s Population</a></li>
+          <li><a href="./countryGDP.html">Country v/s GDP</a></li>
+          <li><a href="./countryPurchase.html">Country v/s Purchasing Power</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="btn-group" role="group">
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Stacked Bar Graphs of Growth
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu col-mg-4">
+          <li><a href="./growth.html">Growth in Population from 2010 to 2013</a></li>
+          <li><a href="./growthPurchase.html">Growth in Purchasing Power from 2010 to 2013</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="btn-group" role="group">
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Bar Graphs: Continent Wise
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu col-mg-4">
+          <li><a href="./aggregatePopulation.html">Aggregate of Population in 2013</a></li>
+          <li><a href="./aggregatePurchase.html">Aggregate of Purchasing Power for 2013</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- <h1 style="text-aligh:center">Bar Graph </h1> -->
+<br><br>
+<script type="text/javascript" src="./nodejs/countryPopulation.js"></script>
+
+<p><strong>Created By: Kirti Jalan </strong></p>
+</body>
+</html>

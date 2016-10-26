@@ -1,0 +1,122 @@
+[
+{
+"country" : "Argentina",
+"population" : 41.49,
+"gdp" : 498.7,
+"purchasingPower" : 776.28
+},
+{
+"country" : "Australia",
+"population" : 23.05,
+"gdp" : 1589.12,
+"purchasingPower" : 1015.94
+},
+{
+"country" : "Brazil",
+"population" : 199.88,
+"gdp" : 2456.66,
+"purchasingPower" : 2466.57
+},
+{
+"country" : "Canada",
+"population" : 35.21,
+"gdp" : 1843.75,
+"purchasingPower" : 1534.94
+},
+{
+"country" : "China",
+"population" : 1360.76,
+"gdp" : 9020.31,
+"purchasingPower" : 13623.26
+},
+{
+"country" : "France",
+"population" : 63.7,
+"gdp" : 2739.27,
+"purchasingPower" : 2289.92
+},
+{
+"country" : "Germany",
+"population" : 81.75,
+"gdp" : 3597.97,
+"purchasingPower" : 3269.56
+},
+{
+"country" : "India",
+"population" : 1239.26,
+"gdp" : 1972.84,
+"purchasingPower" : 5031.68
+},
+{
+"country" : "Indonesia",
+"population" : 247.95,
+"gdp" : 946.39,
+"purchasingPower" : 1314.66
+},
+{
+"country" : "Italy",
+"population" : 61,
+"gdp" : 2076.01,
+"purchasingPower" : 1835.66
+},
+{
+"country" : "Japan",
+"population" : 127.34,
+"gdp" : 5149.9,
+"purchasingPower" : 4778.52
+},
+{
+"country" : "Mexico",
+"population" : 116.02,
+"gdp" : 1274.97,
+"purchasingPower" : 1848.42
+},
+{
+"country" : "Russia",
+"population" : 141.44,
+"gdp" : 2213.57,
+"purchasingPower" : 2640.74
+},
+{
+"country" : "Saudi Arabia",
+"population" : 26.93,
+"gdp" : 745.62,
+"purchasingPower" : 735.82
+},
+{
+"country" : "South Africa",
+"population" : 51.81,
+"gdp" : 375.99,
+"purchasingPower" : 608.8
+},
+{
+"country" : "Republic of Korea",
+"population" : 50.24,
+"gdp" : 1258.59,
+"purchasingPower" : 1687.14
+},
+{
+"country" : "Turkey",
+"population" : 75.81,
+"gdp" : 851.82,
+"purchasingPower" : 1181.01
+},
+{
+"country" : "United Kingdom",
+"population" : 63.76,
+"gdp" : 2422.92,
+"purchasingPower" : 2391.04
+},
+{
+"country" : "USA",
+"population" : 316.85,
+"gdp" : 16237.75,
+"purchasingPower" : 16237.75
+},
+{
+"country" : "European Union",
+"population" : 504.89,
+"gdp" : 17266.94,
+"purchasingPower" : 16213.64
+}
+]

@@ -1,0 +1,19 @@
+.container{
+  /*background-image: url("./../images/g20world.png");*/
+  height: 720px;
+  margin-top: 30px;
+}
+
+svg{
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.axis path,
+.axis line{
+  fill:none;
+  stroke:#000;
+  shape-rendering: crispEdges;
+}
