@@ -12,6 +12,7 @@
 </head>
 <body >
   <h1 align="center">Growth in Purchasing Power from 2010-13</h1>
+  <!-- Tabs for Navigation -->
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <div class="btn-group" role="group">
         <a href="./index.html"><button type="button" class="btn btn-default">G20 Countries</button></a>
@@ -42,28 +43,24 @@
           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Bar Graphs: Continent Wise
           <span class="caret"></span></button>
           <ul class="dropdown-menu col-mg-4">
-            <li><a href="./aggregatePopulation.html">Aggregate of Population in 2013</a></li>
-            <li><a href="./aggregatePurchase.html">Aggregate of Purchasing Power for 2013</a></li>
+            <li><a href="./aggregatePopulation.html">Aggregate of Population and Purchasing Power</a></li>
+            <!-- <li><a href="./aggregatePurchase.html">Aggregate of Purchasing Power for 2013</a></li> -->
           </ul>
         </div>
       </div>
     </div>
 
-
   <h3>Growth in Population from 2010-13 by Country</h3>
   <!-- <a href="aggregate.html">Next -></a> -->
   <br>
-
-  <script src="./nodejs/d3.js" charset="utf-8">
-  </script>
+  <script src="./nodejs/d3.js" charset="utf-8"></script>
   <script>
-
-  var margin={top:20, bottom:165, left:150, right:50},
-    width=1000-margin.left-margin.right,
+  var margin={top:20, bottom:165, left:250, right:50},
+    width=1400-margin.left-margin.right,
     height=600-margin.top-margin.bottom;
   var horizontal=d3.scale.ordinal().rangeRoundBands([0,width],0.25),
     vertical=d3.scale.linear().rangeRound([height,0]);
-  var color = d3.scale.category10();
+  var color = d3.scale.category20b();
   var xAxis=d3.svg.axis()
     .scale(horizontal)
     .orient("bottom");
@@ -84,7 +81,6 @@
     d["Purchasing Power in Billions ( Current International Dollar) - 2011"]=d["Purchasing Power in Billions ( Current International Dollar) - 2011"];
     d["Purchasing Power in Billions ( Current International Dollar) - 2012"]=d["Purchasing Power in Billions ( Current International Dollar) - 2012"];
     d["Purchasing Power in Billions ( Current International Dollar) - 2013"]=d["Purchasing Power in Billions ( Current International Dollar) - 2013"];
-
   });
   var xData=["Purchasing Power in Billions ( Current International Dollar) - 2010",
   "Purchasing Power in Billions ( Current International Dollar) - 2011",
@@ -151,7 +147,8 @@
          .data(color.domain().slice())
        .enter().append("g")
          .attr("class", "legend")
-         .attr("transform", function(d, i) { return "translate(0," + i * 20 +
+         .attr("data-style-padding",10)
+         .attr("transform", function(d, i) { return "translate(-150," + i * 20 +
   ")"; });
      legend.append("rect")
          .attr("x", width - 18)
@@ -169,5 +166,8 @@
   });
 </script>
 <br>
+<footer id=footer>
+  <p><strong>Created By: Kirti Jalan </strong></p>
+</footer>
 </body>
 </html>

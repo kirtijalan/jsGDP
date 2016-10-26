@@ -12,12 +12,14 @@ var lineReader = require('readline').createInterface({
 
 lineReader.on('line', function (line) //reads line by line
 {
-	if( index === 0)  //reading header
+  //reading header
+	if( index === 0)
 	{
 		header = line.split(',');
 		index = 1;
 	}
-	else if (index === 1)  //writing 1st object
+   //writing the 1st object
+	else if (index === 1)
 	{
 		value = line.split(',');
 

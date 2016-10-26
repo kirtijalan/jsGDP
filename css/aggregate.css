@@ -1,19 +1,31 @@
-.bar
-{
+body {
+    font: 10px sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.y.axisRight text {
+    fill: orange;
+}
+
+.y.axisLeft text {
     fill: steelblue;
 }
-.bar:hover
-{
-    fill: rgb(148, 208, 37);
-}
-.axis
-{
-    font: 12px sans-serif;
-}
+
 .axis path,
-.axis line
-{
+.axis line {
     fill: none;
     stroke: #000;
     shape-rendering: crispEdges;
 }
+
+.bar1 {
+    fill: steelblue;
+}
+
+.bar2 {
+    fill: orange;
+}
+

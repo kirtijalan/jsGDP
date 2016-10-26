@@ -43,8 +43,8 @@
           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Bar Graphs: Continent Wise
           <span class="caret"></span></button>
           <ul class="dropdown-menu col-mg-4">
-            <li><a href="./aggregatePopulation.html">Aggregate of Population in 2013</a></li>
-            <li><a href="./aggregatePurchase.html">Aggregate of Purchasing Power for 2013</a></li>
+            <li><a href="./aggregatePopulation.html">Aggregate of Population and Purchasing Power</a></li>
+            <!-- <li><a href="./aggregatePurchase.html">Aggregate of Purchasing Power for 2013</a></li> -->
           </ul>
         </div>
       </div>
@@ -55,11 +55,11 @@
   <script src="./nodejs/d3.js" charset="utf-8"></script>
   <script>
   var margin={top:20, bottom:165, left:150, right:50},
-    width=1000-margin.left-margin.right,
+    width=1300-margin.left-margin.right,
     height=600-margin.top-margin.bottom;
   var horizontal=d3.scale.ordinal().rangeRoundBands([0,width],0.25),
     vertical=d3.scale.linear().rangeRound([height,0]);
-  var color = d3.scale.category10();
+  var color = d3.scale.category20b();
   var xAxis=d3.svg.axis()
     .scale(horizontal)
     .orient("bottom");
@@ -162,5 +162,8 @@
   });
 </script>
 </div>
+<footer id=footer>
+  <p><strong>Created By: Kirti Jalan </strong></p>
+</footer>
 </body>
 </html>
